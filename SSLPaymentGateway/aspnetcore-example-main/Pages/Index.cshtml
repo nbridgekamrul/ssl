@@ -1,0 +1,83 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="row" style="margin:30px;">
+    <div class="col-12">
+        <h1 class="d-flex justify-content-center">Checkout SSLCommerz Payment Gateway!</h1>
+        <div>
+            <form method="post">
+                <br><br><br>
+
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <div>
+                            <img src="/Pictures/maxresdefault.jpeg" style="width:500px; height:280px;" />
+                        </div>
+                        <div>
+                            <br />
+                            <h5>Apple Mackbook Pro 2023</h5>
+                            <h6><strong>Price : 2,50,500 TK</strong></h6>
+
+                            <label for="amount" class="form-label">Enter payable amount (Min 100 - Max 500000)</label>
+                            <input type="number"  class="form-control" min="100" max="500000" style="width:500px;" autofocus />
+                        </div>
+                        <br />
+                        <div class="sm-3">
+                            <input type="submit" value="Proceed to Payment " class="btn btn-primary" style="width:500px;" />
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div>
+                            <img src="/Pictures/Best-MacBook-1-920x518.jpg" style="width:500px; height:280px; " />
+                        </div>
+                        <div>
+                            <br />
+                            <h5>Apple Mackbook Air 2023</h5>
+
+                            <h6><strong>Price : 2,80,500 TK</strong></h6>
+
+                            <label for="amount" class="form-label">Enter payable amount (Min 100 - Max 500000)</label>
+                            <input type="number" id="amount" name="amount" class="form-control" min="100" max="500000" style="width:500px;" autofocus required />
+                        </div>
+                        <br />
+                        <div class="sm-3">
+                            <input type="submit" value="Proceed to Payment (Active)" class="btn btn-primary" style="width:500px;" />
+                        </div>
+                    </div>
+
+                     @*#3rd product*@                    
+                    <div>
+                        <div>
+                            <img src="/Pictures/apple_macbook_pro_14_inch_silicon_2022_in_official_design_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_4568794_o.png" style="width:500px; height:280px;" />
+                        </div>
+                        <div>
+                            <br />
+                            <h5>Apple Mackbook M2 Pro 2023</h5>
+
+                            <h6><strong>Price : 3,20,500 TK</strong></h6>
+
+                            <label for="amount" class="form-label">Enter payable amount (Min 100 - Max 500000)</label>
+                            <input type="number" class="form-control" min="100" max="500000" style="width:500px;" autofocus />
+                        </div>
+                        <br />
+                        <div class="sm-3">
+                            <input type="submit" value="Proceed to Payment " class="btn btn-primary" style="width:500px;" />
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
